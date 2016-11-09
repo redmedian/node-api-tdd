@@ -3,7 +3,7 @@ let app = express();
 let mongoose = require('mongoose');
 let morgan = require('morgan');
 let bodyParser = require('body-parser');
-let port = 8080;
+let port = process.env.PORT || 8080;
 let book = require('./app/routes/book');
 let config = require('config'); // загружаем адрес базы из конфигов
 
