@@ -24,6 +24,14 @@ PUT /book/:id
 DELETE /book/:id
 ```
 
+## Test data:
+```
+title: "The Lord of the Rings",
+author: "J.R.R. Tolkien",
+year: 1954,
+pages: 1170
+```
+
 ## Demo:
 This site was built using [Heroku](https://node-api-tdd.herokuapp.com/).
 
