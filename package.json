@@ -4,7 +4,7 @@
   "description": "Test a Node RESTful API with Mocha and Chai",
   "main": "server.js",
   "scripts": {
-    "start": "set NODE_ENV=dev && node server.js",
+    "start": "set NODE_ENV=dev && NODE_ENV=production && node server.js",
     "test": "mocha --timeout 10000"
   },
   "author": "Sergey Anischenko",
