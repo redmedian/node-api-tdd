@@ -1,4 +1,4 @@
 {
     // "DBHost": "mongodb://localhost/bookstore_test"
-    "DBHost": "mongodb://admin:12345@ds147487.mlab.com:47487/bookstore_test");
+    "DBHost": "mongodb://admin:12345@ds147487.mlab.com:47487/bookstore_test"
 }
